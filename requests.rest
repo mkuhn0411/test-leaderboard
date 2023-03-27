@@ -1,5 +1,5 @@
 ### 
-POST http://localhost:5000/users/add 
+POST http://localhost:5001/users/add 
 Content-Type: application/json
 
 {
@@ -7,3 +7,11 @@ Content-Type: application/json
 "score": 100
 }
 
+### 
+POST https://test-leaderboard-56sk1urvm-mkuhn0411.vercel.app/users/add 
+Content-Type: application/json
+
+{
+"username": "Jacob",
+"score": 100
+}

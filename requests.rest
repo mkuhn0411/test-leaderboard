@@ -8,7 +8,7 @@ Content-Type: application/json
 }
 
 ### 
-POST https://test-leaderboard-ofrdnryoi-mkuhn0411.vercel.app//users/add 
+POST https://test-leaderboard-ofrdnryoi-mkuhn0411.vercel.app/users/add 
 Content-Type: application/json
 
 {

@@ -1,9 +1,8 @@
 const router = require('express').Router();
 let User = require('../models/User.js');
 
-console.log("Test")
-
 router.route('/add').post((req, res) => {
+    console.log(req.body)
     const { username, score } = req.body;
     const newUser = new User({username, score});
 

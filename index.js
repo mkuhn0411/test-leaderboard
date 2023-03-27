@@ -38,17 +38,7 @@ connection.once('open', () => {
 
 const usersRouter = require('./routes/users.js');
 
-app.use('/scores', usersRouter);
-
-// app.post('/users/add').post((req, res) => {
-//     const { username, score } = req.body;
-//     const newUser = new User({username, score});
-
-//     newUser.save()
-//         .then(() => res.json('User added!'))
-//         .catch(err => res.status(400).json('Error ' + err));
-// });
-
+app.use('/users', usersRouter);
 
 app.listen(port, () => {
     console.log(`Server is running on port: ${port}`);

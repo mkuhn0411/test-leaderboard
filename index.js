@@ -4,8 +4,6 @@ const mongoose = require('mongoose');
 
 require('dotenv').config();
 
-console.log("TEst")
-
 const app = express();
 const port = process.env.PORT || 5001;
 
@@ -38,7 +36,7 @@ connection.once('open', () => {
     console.log("Mongo db database connection established successfully")
 });
 
-const usersRouter = require('./routes/scores.js');
+const usersRouter = require('./routes/users.js');
 
 app.use('/scores', usersRouter);
 

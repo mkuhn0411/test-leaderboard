@@ -1,3 +1,6 @@
+###
+GET http://localhost:5002/users
+
 ### 
 POST http://localhost:5002/users/add 
 Content-Type: application/json
